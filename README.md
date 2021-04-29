@@ -17,7 +17,7 @@ namespace sql_tera
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-F7Q4FDK\SQLEXPRESS;Initial Catalog=chatbot;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=..\SQLEXPRESS;Initial Catalog=chatbot;Integrated Security=True");
         String s;
         private void Form1_Load(object sender, EventArgs e)
         {
